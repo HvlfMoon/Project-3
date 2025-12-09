@@ -88,6 +88,15 @@
     font-style: normal;
   }
 
+  .Hero {
+    background-image: url(https://images.pexels.com/photos/414320/pexels-photo-414320.jpeg?cs=srgb&dl=pexels-pixabay-414320.jpg&fm=jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
   .invitation {
     display: flex;
     flex-direction: column;
