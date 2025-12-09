@@ -50,14 +50,53 @@
   margin: 0;
   padding: 0;
 }
-
-html {
-  color: #222;
-  line-height: 1.4;
-  font-size: 16pt;
+@media only screen and (max-width: 480px) {
+  html {
+    color: #222;
+    line-height: 1.4;
+    font-size: 16pt;
+    background-color: #fbf5d7;
+    font-family: helvetica, arial, sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    font-family: "Averia Libre", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  
+  h1 {
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h2 {
+    font-family: "Averia Libre", system-ui;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  p {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .when {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .rsvp {
+    text-align: center;
+    margin: 10px;
+  }
 }
-
-
-
 
 
