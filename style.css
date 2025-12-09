@@ -50,6 +50,7 @@
   margin: 0;
   padding: 0;
 }
+
 @media only screen and (max-width: 480px) {
   html {
     color: #222;
@@ -69,7 +70,6 @@
     background-color: white;
   }
   
-  
   h1 {
     font-family: "Potta One", system-ui;
     font-weight: 400;
@@ -78,7 +78,7 @@
   
   h2 {
     font-family: "Averia Libre", system-ui;
-    font-weight: 300;
+    font-weight:700;
     font-style: italic;
   }
   
@@ -87,15 +87,28 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  .invitation {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    line-height: 2em;
+  }
   
   .when {
     display: flex;
+    font-size: 5vw;
     justify-content: space-evenly;
   }
   
   .rsvp {
     text-align: center;
     margin: 10px;
+    background-color: #66d0e7;
+    padding: 0 5vw;
+    border-radius: 10px
   }
 }
 
