@@ -77,7 +77,7 @@
 }
   
   h1 {
-    font-family: "Potta One", system-ui;
+    font-family: "Knewave", system-ui;
     font-weight: 400;
     font-style: normal;
   }
@@ -95,7 +95,7 @@
   }
 
   .Hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(https://i.pinimg.com/736x/a2/ed/74/a2ed745fbfee5369ad6153c21685ea81.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),url(https://i.pinimg.com/736x/a2/ed/74/a2ed745fbfee5369ad6153c21685ea81.jpg);
     background-size: cover;
     position: center;
     width: 100vw;
@@ -111,6 +111,7 @@
     color: white;
     font-size: 2rem;
     text-align: center;
+    line-height: 4rem;
     position: absolute;
     top: 40%;
     left: 50%;
