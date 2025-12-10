@@ -98,7 +98,7 @@
   }
 
   .Hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),url(https://i.pinimg.com/736x/a2/ed/74/a2ed745fbfee5369ad6153c21685ea81.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(https://i.pinimg.com/736x/a2/ed/74/a2ed745fbfee5369ad6153c21685ea81.jpg);
     background-size: cover;
     position: center;
     width: 100vw;
@@ -120,11 +120,20 @@
     transform: translate(-50%, -50%);
   }
 
+  .who {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline wavy;
+    text-underline-position: under;
+    text-underline-offset: 8px;
+    color: 
+  }
+
   .invitation {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 2vw;
+    gap: 3vw;
   }
   
   .when {
@@ -132,6 +141,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 1.5rem;
+    margin: 2rem;
   }
   
   .rsvp {
