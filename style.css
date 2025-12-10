@@ -63,7 +63,7 @@
   nav {
     display: flex;
     font-family: "Averia Libre", system-ui;
-    font-size: 5vw;;
+    font-size: 5vw;
     font-weight: 700;
     font-style: normal;
     justify-content: space-around;
@@ -72,11 +72,18 @@
 
   a {
     color: 	#fdeab7;
-    background-color: #285260;
     text-decoration: none;
     border-radius: 10%;
     padding: 1vw;
 }
+
+  a:visited {
+    color: #f9bc60;
+  }
+
+  a:active {
+    color: #F6F9FA;
+  }
   
   h1 {
     font-family: "Knewave", system-ui;
@@ -274,5 +281,28 @@
     color: #285260;
     text-decoration: underline wavy;
     text-underline-position: under;
+  }
+
+  footer {
+    background-color: #285260;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .foot1 {
+    font-family: "Averia Libre", system-ui;
+    font-size: 5vw;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    align-content: space-evenly;
+    font-size: 3vw;
+    flex-wrap: wrap;
+  }
+
+  .copyright {
+    color: white;
+    display: flex;
+    align-items: flex-end;
   }
 }
