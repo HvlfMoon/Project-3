@@ -56,14 +56,14 @@
     color: #222;
     line-height: 1.5;
     font-size: 16pt;
-    background-color: #E9E4D7;
+    background-color: #B3D9E0;
     font-family: helvetica, arial, sans-serif;
   }
   
   nav {
     display: flex;
     font-family: "Averia Libre", system-ui;
-    font-size: 1.5rem;
+    font-size: 5vw;;
     font-weight: 700;
     font-style: normal;
     justify-content: space-around;
@@ -71,7 +71,7 @@
   }
 
   a {
-    color: #66d0e7;
+    color: 	#fdeab7;
     background-color: #285260;
     text-decoration: none;
     border-radius: 10%;
@@ -174,5 +174,47 @@
     font-weight: 400;
     font-style: normal;
     list-style-position: inside;
+  }
+
+  .container {
+    background-color:#F6F9FA;
+    border: 5px solid #BB7E5D;
+    border-radius: 12px;
+    width: 70%;
+    margin: 1rem auto;
+    overflow: hidden;
+  }
+
+  .top {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+  }
+
+  .picture {
+    width: 60vw;
+    height: 60vw;
+    display: block;
+    border-radius: 50%;
+    margin: 10px auto;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+  }
+
+  .activity {
+    text-align: center;
+    font-size: 2rem; 
+  }
+
+  .time {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: underline;
   }
 }
