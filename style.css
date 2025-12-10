@@ -82,6 +82,7 @@
     font-family: "Knewave", system-ui;
     font-weight: 400;
     font-style: normal;
+    color: #ffd803;
   }
   
   h2 {
@@ -110,10 +111,9 @@
   }
 
   .HeroText {
-    color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
-    line-height: 4rem;
+    line-height: 5rem;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -176,6 +176,19 @@
     font-weight: 400;
     font-style: normal;
     list-style-position: inside;
+  }
+
+  .Hero2 {
+    background-image: url(https://i.pinimg.com/736x/67/79/ab/6779ab906bb4bfe060e5fe60342aea51.jpg);
+    background-size: cover;
+    position: center;
+    width: 100vw;
+    height: 70vh;
+  --mask:
+    radial-gradient(56.36px at 50% calc(100% - 78.4px),#000 99%,#0000 101%) calc(50% - 64px) 0/128px 100%,
+    radial-gradient(56.36px at 50% calc(100% + 46.4px),#0000 99%,#000 101%) 50% calc(100% - 32px)/128px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
   }
 
   .container {
