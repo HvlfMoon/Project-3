@@ -105,9 +105,9 @@
   }
 
   .Hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(https://i.pinimg.com/736x/a2/ed/74/a2ed745fbfee5369ad6153c21685ea81.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),url(https://i.pinimg.com/1200x/36/b8/cf/36b8cf6506725cd43bb68b1f5e728786.jpg);
     background-size: cover;
-    position: center;
+    position: ;
     width: 100vw;
     height: 70vh;
   --mask:
@@ -118,11 +118,11 @@
   }
 
   .HeroText {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
-    line-height: 5rem;
+    line-height: 4rem;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -162,6 +162,7 @@
     color: #285260;;
     padding: 0 7vw;
     border-radius: 10px;
+    margin-bottom: 2rem;
   }
 
   .about {
