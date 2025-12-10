@@ -63,17 +63,19 @@
   nav {
     display: flex;
     font-family: "Averia Libre", system-ui;
-    font-size: 5vw;;
+    font-size: 1.5rem;
     font-weight: 700;
     font-style: normal;
     justify-content: space-around;
-    padding: 10px;
-    background-color: #F6F9FA;
+    background-color: #285260;
   }
 
   a {
-  color: #285260;
-  text-decoration: none;
+    color: #66d0e7;
+    background-color: #285260;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 1vw;
 }
   
   h1 {
@@ -128,15 +130,18 @@
   .when {
     display: flex;
     font-size: 1.5rem;
-    
   }
   
   .rsvp {
+    font-family: "Averia Libre", system-ui;
+    font-weight:700;
+    font-style: normal;
     text-align: center;
-    background-color: #66d0e7;
+    border: 5px solid #BB7E5D;
+    background-color: #F6F9FA;
+    color: #BB7E5D;
     padding: 0 7vw;
     border-radius: 10px;
-    font-size: 2rem;
   }
 
   .about {
@@ -157,6 +162,10 @@
 
   .gifts {
     margin: 2rem;
+    border: 10px solid #66d0e7;
+    border-radius: 10%;
+    padding: 6vw;
+    background-color: #F6F9FA;
   }
 
   ul li {
@@ -164,5 +173,6 @@
     font-family: "Gaegu", sans-serif;
     font-weight: 400;
     font-style: normal;
+    list-style-position: inside;
   }
 }
