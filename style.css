@@ -149,8 +149,8 @@ a {
   }
 
   .daniel {
-    width: 50vw;
-    margin: 3rem;
+    width: 80vw;
+    margin: 2rem;
     border-radius: 10%;
   --mask:
     radial-gradient(75.72px at 50% calc(100% - 105px),#000 99%,#0000 101%) calc(50% - 84px) 0/168px 100%,
@@ -168,7 +168,16 @@ a {
     font-size: 1.5rem;
   }
 
-  h4{
+  .gifts {
+    margin: 2rem;
+    border: 10px solid #f9bc60;;
+    border-radius: 10%;
+    padding: 2rem;
+    background-color: #F6F9FA;
+    width: 300pxx;
+  }
+
+h4{
     font-family: "Gaegu", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -179,20 +188,11 @@ a {
     margin-bottom: 2vw;
   }
 
-  .gifts {
-    margin: 2rem;
-    border: 10px solid #f9bc60;;
-    border-radius: 10%;
-    padding: 2rem;
-    background-color: #F6F9FA;
-    width: 20vw;
-  }
-
   ul li {
     list-style-type: circle;
     font-family: "Gaegu", sans-serif;
     font-weight: 400;
-    font-size: 1.5rem
+    font-size: 1.5rem;
     font-style: normal;
     list-style-position: inside;
   }
