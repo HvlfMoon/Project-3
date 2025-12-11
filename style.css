@@ -174,7 +174,10 @@ a {
     border-radius: 10%;
     padding: 2rem;
     background-color: #F6F9FA;
-    width: 300pxx;
+    width: 300px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
 h4{
@@ -498,7 +501,7 @@ footer {
     border-radius: 10%;
     padding: 5vw;
     background-color: #F6F9FA;
-    width: 60vw;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
