@@ -139,6 +139,7 @@ a {
     text-underline-position: under;
     text-underline-offset: 8px;
     margin: 2vw;
+    color: #285260;
   }
 
   .invitation {
@@ -164,7 +165,7 @@ a {
     text-align: center;
     border: 5px solid #f9bc60;
     background-color: #F6F9FA;
-    color: #285260;;
+    color: #285260;
     padding: 0 7vw;
     border-radius: 10px;
     margin-bottom: 2rem;
