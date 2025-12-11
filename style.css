@@ -278,7 +278,9 @@ footer {
     font-size: 1rem;
     font-weight: 700;
     font-style: normal;
+    width: 200px;
     display: flex;
+    flex-wrap: wrap;
     align-content: space-evenly;
   }
 
@@ -589,10 +591,11 @@ footer {
   .foot1 {
     font-family: "Averia Libre", system-ui;
     font-size: 3vw;
-    width: 30vw;
+    width: 100px;
     font-weight: 700;
     font-style: normal;
     display: flex;
+    flex-wrap: wrap;
     align-content: space-evenly;
   }
 
