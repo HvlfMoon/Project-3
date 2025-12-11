@@ -121,7 +121,7 @@ a {
   }
 
   .HeroText {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -618,21 +618,17 @@ footer {
   .foot1 {
     font-family: "Averia Libre", system-ui;
     font-size: 3vw;
+    width: 30vw;
     font-weight: 700;
     font-style: normal;
     display: flex;
-    flex-direction: column;
     align-content: space-evenly;
-    flex-wrap: wrap;
-    margin-left: 2vw;
   }
 
   .copyright {
     color: white;
     display: flex;
-    align-items: flex-start;
-    text-align: right;
-    margin-right: 2vw;
+    align-items: flex-end;
   }
 
     /* ----------------------------------------------
