@@ -117,8 +117,6 @@ h2 {
           mask: var(--mask);
   }
 
-  <!-- Link to your favicon. Place favicon in the root directory -->
-  <link rel="icon" href="https://github.com/favicon.ico" />
   .HeroText {
     font-size: 1.5rem;
     text-align: center;
